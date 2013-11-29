@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "BomdiggyImage.h"
+@interface ViewController : UIViewController <UIAlertViewDelegate>{
+    NSArray *images;
+    int currentKey;
+    
+}
+@property (weak, nonatomic) IBOutlet UIImageView *imageview;
 
 @end

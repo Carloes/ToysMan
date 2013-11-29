@@ -21,6 +21,7 @@
 		0733D5611840030A00BA15F9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0733D5431840030A00BA15F9 /* UIKit.framework */; };
 		0733D5691840030A00BA15F9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0733D5671840030A00BA15F9 /* InfoPlist.strings */; };
 		0733D56B1840030A00BA15F9 /* BomdiggyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0733D56A1840030A00BA15F9 /* BomdiggyTests.m */; };
+		07FEE94F184005E900C8D8CB /* BomdiggyImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 07FEE94E184005E900C8D8CB /* BomdiggyImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		0733D5661840030A00BA15F9 /* BomdiggyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BomdiggyTests-Info.plist"; sourceTree = "<group>"; };
 		0733D5681840030A00BA15F9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0733D56A1840030A00BA15F9 /* BomdiggyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BomdiggyTests.m; sourceTree = "<group>"; };
+		07FEE94D184005E900C8D8CB /* BomdiggyImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BomdiggyImage.h; sourceTree = "<group>"; };
+		07FEE94E184005E900C8D8CB /* BomdiggyImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BomdiggyImage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				0733D5551840030A00BA15F9 /* ViewController.m */,
 				0733D5571840030A00BA15F9 /* Images.xcassets */,
 				0733D5461840030A00BA15F9 /* Supporting Files */,
+				07FEE94D184005E900C8D8CB /* BomdiggyImage.h */,
+				07FEE94E184005E900C8D8CB /* BomdiggyImage.m */,
 			);
 			path = Bomdiggy;
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 				0733D5561840030A00BA15F9 /* ViewController.m in Sources */,
 				0733D5501840030A00BA15F9 /* AppDelegate.m in Sources */,
 				0733D54C1840030A00BA15F9 /* main.m in Sources */,
+				07FEE94F184005E900C8D8CB /* BomdiggyImage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,6 +387,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bomdiggy/Bomdiggy-Prefix.pch";
 				INFOPLIST_FILE = "Bomdiggy/Bomdiggy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,6 +401,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bomdiggy/Bomdiggy-Prefix.pch";
 				INFOPLIST_FILE = "Bomdiggy/Bomdiggy-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -460,6 +468,7 @@
 				0733D5701840030A00BA15F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0733D5711840030A00BA15F9 /* Build configuration list for PBXNativeTarget "BomdiggyTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +477,7 @@
 				0733D5731840030A00BA15F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
